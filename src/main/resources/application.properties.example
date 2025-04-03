@@ -1,0 +1,12 @@
+spring.application.name=pruebasCIVA
+
+spring.datasource.url=jdbc:mysql://localhost:{PUERTO}/{NOMBRE_DB}
+spring.datasource.username=${USUARIO_DB}
+spring.datasource.password=${CONTRASENNA_DB}
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.show-sql:true
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.defer-datasource-initialization=true
+spring.sql.init.mode=always
+
